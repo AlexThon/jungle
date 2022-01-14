@@ -2,6 +2,7 @@ main section.products-index,
 main section.categories-show {
 
   .products {
+    position: relative;
     display:         flex;
     flex-direction:  row;
     flex-wrap:       wrap;
@@ -59,7 +60,20 @@ main section.categories-show {
           opacity: 1.0;
         }
       }
-
+      .sold-badge {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        width: 6em;
+        padding: .25em;
+        height: auto;
+        background-color: #d53a32fc;
+        color: white;
+        top: 0;
+        left: 0;
+        border-radius: 10% 0 10% 0;
+        
+      }
     }
   }
 }
