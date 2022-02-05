@@ -21,7 +21,7 @@
        <% items = LineItem.where(order_id: @order.id) %>
        <% items.each do |item| %>
        
-       <%= render 'order',
+       <%= render 'line_item',
           product_id: item.product_id,
           quantity: item.quantity 
        %>
