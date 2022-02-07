@@ -85,6 +85,28 @@ main section.products-show {
       max-width: 100%;
     }
   }
+
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+.style-form {
+  display: flex;
+  flex-direction: column;
+  input {
+    width: 28em;
+    height: 3.5em;
+    margin-bottom: 1em;
+  }
+  input[name = "commit"] {
+    width: 10em;
+    background-color: rgb(106, 120, 223);
+    color: white;
+    }
+  }
 }
 
 
